@@ -1,0 +1,224 @@
+/*region styles*/
+/*main region  HBox*/
+.region-hbox {
+    -fx-background-color: whitesmoke;
+    -fx-font-family: Roboto;
+    -fx-border-color: gray, transparent;
+}
+
+/*sights styles*/
+
+/*common text field and text area styles*/
+.text-field {
+    -fx-background-color: transparent;
+}
+
+.text-area {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;    
+}
+
+/*common interface styles (buttons, menus etc)*/
+.button {
+    -fx-background-color: #cdcdcd;
+    -fx-background-radius: 8;
+    -fx-font-size: 13px;
+    -fx-font-weight: 400;
+    -fx-text-fill: #000000;
+}
+
+.menu-button {
+    -fx-background-color: #cdcdcd;
+    -fx-background-radius: 8;
+    -fx-font-size: 13px;
+    -fx-font-weight: 400;
+    -fx-text-fill: #000000;
+}
+
+.menu-item {
+    -fx-background-radius: 5;
+    -fx-font-size: 12px;
+    -fx-font-weight: 400;
+    -fx-text-fill: #000000;
+}
+
+/*main sights (1 to 32) HBox*/
+.sight-hbox {
+    -fx-border-width: 0 0 1 0, 0 0 1 0, 0 0 1 0;
+    -fx-border-insets: 0 0 1 0, 0 0 2 0, 0 0 3 0;
+    -fx-border-style: dashed;
+}
+
+/* performance as... teather as... */
+.vbox-performance-as {
+    -fx-border-color: black, transparent;
+    -fx-border-width: 0 1 0 0, 0 1 0 0, 0 1 0 0;
+    -fx-border-insets: 0 1 0 0, 0 2 0 0, 0 3 0 0;
+}
+
+.text-performance-as {
+    -fx-background-color: transparent;
+    -fx-text-fill: blue;
+    -fx-font-weight: bold;
+    -fx-border-width: 5;
+    -fx-font-size: 15;
+}
+
+/* view item */
+
+.view-item {
+    -fx-background-color: yellow;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-border-insets: 1;
+    -fx-border-style: solid;
+}
+
+/* sight one and sight two */
+
+.hbox-sights {
+    -fx-border-color: black, transparent;
+    -fx-border-width: 0 2 0 0, 0 1 0 0, 0 2 0 0;
+    -fx-border-insets: 0 1 0 0, 0 2 0 0, 0 3 0 0;
+    -fx-border-style: solid;
+}
+
+.vbox-sights {
+    -fx-border-color: black, transparent;
+    -fx-border-width: 0 1 0 0, 0 1 0 0, 0 1 0 0;
+    -fx-border-insets: 0 1 0 0, 0 2 0 0, 0 3 0 0;
+}
+
+.directions {
+    -fx-border-color: black;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+}
+
+.text-directions {
+    -fx-text-alignment: right;
+    -fx-border-color: black;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-font-size: 17;
+}
+
+/* artist collective list */
+
+.artist-collective-list {
+    -fx-border-color: blue;
+    -fx-border-width: 2 2 0 0, 2 2 0 0, 2 2 0 0;
+    -fx-border-insets: 1 1 0 0, 2 2 0 0, 3 3 0 0;
+    -fx-border-style: solid;
+}
+
+.text-artist-collective-list {
+    -fx-font-size: 13;
+}
+
+/* theory */
+.vbox-theory {
+    -fx-border-color: black, transparent;
+    -fx-border-width: 0 3 0 0, 0 3 0 0, 0 3 0 0;
+    -fx-border-insets: 0 1 0 0, 0 2 0 0, 0 3 0 0;
+}
+
+.text-theory {
+    -fx-font-weight: lighter;
+    -fx-background-color: lightgray;
+    -fx-border-color: black;
+    -fx-font-weight: 500;
+    -fx-border-width: 1;
+    -fx-font-size: 12;
+}
+/* literature */
+.vbox-literature {
+    -fx-border-bottom-width: 1;
+    -fx-border-top-width: 0;
+    -fx-border-left-width: 0;
+    -fx-border-right-width: 1;
+    -fx-border-insets: 3, 3, 3, 3;
+    -fx-border-style: solid;
+}
+
+.text-literature {
+    -fx-font-weight: lighter;
+    -fx-background-color: lightgray;
+    -fx-border-color: black;
+    -fx-font-weight: 500;
+    -fx-border-width: 1;
+    -fx-font-size: 12;
+}
+
+/*fills */
+
+.orange-fill {
+    -fx-background-color: #faac54;
+}
+
+.white-fill {
+    -fx-background-color: white;
+}
+
+.transparent-fill {
+    -fx-background-color: transparent;
+}
+
+.dashed-border {
+    -fx-border-width: 1;
+    -fx-border-style: dashed;
+    -fx-border-color: black;
+}
+
+/* can use later */
+
+/* underline in labels*/
+.underline-text {
+    -fx-font-weight: 700;
+    -fx-border-color: black, transparent;
+    -fx-border-width: 0 0 1 0, 0 0 1 0, 0 0 1 0;
+    -fx-border-insets: 0 0 1 0, 0 0 2 0, 0 0 3 0;
+}
+
+/*
+.styled-text-area .text {
+    the color of the text's background color
+    -rtfx-background-color: black;
+
+    the color of the border around a section of text
+    -rtfx-border-stroke-color: black;
+
+    the width of the border around a section of text
+    -rtfx-border-stroke-width: 1;
+
+    the type of the border around a section of text
+    -rtfx-border-stroke-type: 1,1,1;
+
+    the border's dash lengths: allows dot/dash style borders
+    -rtfx-border-stroke-dash-array: 1;
+
+    the color of the underline
+    -rtfx-underline-color: black;
+
+    the width of the underline
+    -rtfx-underline-width: 1;
+
+    the underline's dash lengths: allows dot/dash style lines
+    -rtfx-underline-dash-array: 1;
+
+    the StrokeLineCap to use: [ square | butt | round ] 
+       defaults to "square"
+    -rtfx-underline-cap: 1;
+}
+*/
